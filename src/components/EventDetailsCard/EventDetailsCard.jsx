@@ -51,6 +51,9 @@ function EventDetailsCard(props) {
 					<Card.Img variant="top" src="holder.js/100px180" />
 					<Card.Body>
 						<Card.Title>{event.title}</Card.Title>
+						<div>
+              				<img src='https://picsum.photos/200'></img>
+            			</div>
 						<span>Location: {event.locName}</span><br/>
 						<span>Address: {event.address}</span><br/>
 						<span>{event.date}</span><br/>

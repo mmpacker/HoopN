@@ -13,6 +13,9 @@ function EventListCard(props) {
         <Card style={{ width: '18rem' }}>
           <Card.Body>
             <Card.Title>{event.title}</Card.Title>
+            <div>
+              <img src='https://picsum.photos/200'></img>
+            </div>
             <span>Location: {event.locName}</span><br/>
             <span>Address: {event.address}</span><br/>
             <span>Date: {event.date}</span><br/>

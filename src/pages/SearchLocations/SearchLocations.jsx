@@ -20,7 +20,6 @@ function SearchLocations(props) {
             <Card.Header style={{ fontSize: '25px', fontWeight: 'bolder' }}>Nearby Parks</Card.Header>
             <ListGroup variant="flush">
             {places.map((park) => (
-              
               <ListGroup.Item><Link to={{ pathname: '/location/details', state: { park },getPhoto }}>
               {park.name}
             </Link></ListGroup.Item>
